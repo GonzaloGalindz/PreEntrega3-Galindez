@@ -1,0 +1,31 @@
+.main2 {
+  background: $gradient-main2;
+  #Categorias {
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+  }
+  .subtitulos {
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    font-size: 1.4rem;
+  }
+  .Categorias-1 {
+    display: block;
+    margin: auto;
+  }
+  #subtitulos {
+    display: block;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 8rem;
+  }
+}

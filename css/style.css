@@ -1,47 +1,30 @@
-body {
-  font-family: "Montserrat", sans-serif;
-}
 img {
   max-width: 100%;
 }
-.nav-link:hover {
+
+header .menu {
+  background: linear-gradient(to right, #018f8f, #51f7f7);
+}
+header .Logo {
+  height: 4rem;
+}
+header .nav-link {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .nav-link:hover {
   opacity: 0.65;
 }
-.display-1 {
-  text-transform: capitalize;
-  color: rgb(0, 0, 0);
-  font-size: 3.5rem;
+
+.H1 {
+  font-size: 3rem;
   text-align: center;
-  font-weight: bold;
   padding: 2rem;
+  padding-bottom: 3rem;
 }
-.display-1-description {
-  font-size: 1.4rem;
-  display: inline-block;
-  margin-top: 1rem;
-}
-.comprar--button {
-  position: relative;
-  background: rgb(0, 0, 0);
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.93rem 3.3rem 0.93rem 1.2rem;
-  font-weight: 700;
-  border: 0.1rem solid white;
-  border-radius: 50rem;
-  cursor: pointer;
-  z-index: 1;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-.LogosDeRedes {
-  width: 12rem;
-  height: 12rem;
-  padding: 2rem;
-  display: block;
-  margin: auto;
-}
+
 footer {
   font-size: 1rem;
   padding-top: 2rem;
@@ -49,158 +32,7 @@ footer {
   text-align: center;
   background-color: #079999;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-}
-#Categorias {
-  text-align: center;
-  padding-bottom: 4rem;
-  font-size: 1.6rem;
-  font-weight: bolder;
-  font-style: oblique;
-  text-decoration: underline;
-}
-.H1 {
-  font-size: 3rem;
-  text-align: center;
-  padding: 2rem;
-  padding-bottom: 3rem;
-}
-.Logo {
-  height: 4rem;
-}
-.nav-link {
-  color: rgb(0, 0, 0);
-  font-size: 1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.menu {
-  background: linear-gradient(to right, #018f8f, #51f7f7);
-}
-.Categorias-1 {
-  display: block;
-  margin: auto;
-}
-.subtitulos {
-  display: block;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 5rem;
-  font-size: 1.4rem;
-}
-.subtit {
-  padding-top: 2.5rem;
-}
-#subtitulos {
-  display: block;
-  text-align: center;
-  padding-top: 1.5rem;
-  padding-bottom: 5rem;
-  font-size: 1.4rem;
-  position: relative;
-  bottom: 8rem;
-}
-.display-3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  padding-bottom: 1.5rem;
-  font-style: oblique;
-  text-decoration: underline;
-}
-.display-3-description {
-  font-size: 1.2rem;
-}
-.img_nosotros {
-  display: block;
-  margin: auto;
-}
-.testimonios {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding-top: 1rem;
-}
-.preguntas-1 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding-top: 1.5rem;
-  text-decoration: underline;
-}
-.display-4 {
-  text-align: center;
-  font-size: 2.2rem;
-  padding-bottom: 3rem;
-  font-style: oblique;
-  text-decoration: underline;
-}
-.ds4 {
-  padding-bottom: 4rem;
-}
-.display-4-description {
-  font-size: 1.1rem;
-  padding-top: 1rem;
-}
-.img-faq {
-  display: block;
-  margin: auto;
-  height: 25%;
-  width: 25%;
-  padding-bottom: 1.5rem;
-}
-.ayuda-2 {
-  text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
-  font-weight: lighter;
-  text-decoration: underline;
-}
-.ayuda-2-1 {
-  text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 1.5rem;
-  font-weight: lighter;
-  padding-top: 4rem;
-  text-decoration: underline;
-}
-#Cuadro {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding-top: 2.5rem;
-}
-.datos {
-  font-size: 1rem;
-  padding-left: 1rem;
-}
-.datos1 {
-  font-size: 1.1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.datos2 {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-main {
-  background: linear-gradient(to left, #018f8f, #51f7f7);
-}
-.main2 {
-  background: linear-gradient(to top, #018f8f, #51f7f7);
-}
-.main3 {
-  background: linear-gradient(to bottom, #018f8f, #51f7f7);
-}
-.main4 {
-  background: linear-gradient(to right, #018f8f, #51f7f7);
-}
-.main5 {
-  background: linear-gradient(to left, #018f8f, #51f7f7);
-}
-.boton {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
+
 @media (max-width: 540px) {
   .Logo {
     height: 3rem;
@@ -223,3 +55,185 @@ main {
     bottom: 5rem;
   }
 }
+main {
+  background: linear-gradient(to left, #018f8f, #51f7f7);
+}
+main .display-1 {
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem;
+}
+main .display-1 .display-1-description {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+main .comprar--button {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.93rem 3.3rem 0.93rem 1.2rem;
+  font-weight: 700;
+  border: 0.2rem solid white;
+  border-radius: 50rem;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(360deg, #65bce8 0%, #1b6492 100%);
+  background-size: 1px 100px;
+  transition: all 0.5s;
+}
+main .comprar--button:hover {
+  background-position: 0 -50px;
+  transition: all 0.5s;
+}
+main .subtit {
+  padding-top: 2.5rem;
+}
+
+.main2 {
+  background: linear-gradient(to top, #018f8f, #51f7f7);
+}
+.main2 #Categorias {
+  text-align: center;
+  padding-bottom: 4rem;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.main2 .subtitulos {
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
+}
+.main2 .Categorias-1 {
+  display: block;
+  margin: auto;
+}
+.main2 #subtitulos {
+  display: block;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: 8rem;
+}
+
+.main3 {
+  background: linear-gradient(to bottom, #018f8f, #51f7f7);
+}
+.main3 .display-3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.main3 .display-3-description {
+  font-size: 1.2rem;
+}
+.main3 .img_nosotros {
+  display: block;
+  margin: auto;
+}
+.main3 .testimonios {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.main4 {
+  background: linear-gradient(to right, #018f8f, #51f7f7);
+}
+.main4 .ds4 {
+  padding-bottom: 4rem;
+}
+.main4 .ds4 .display-4 {
+  text-align: center;
+  font-size: 2.2rem;
+  padding-bottom: 3rem;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.main4 .ds4 .display-4-description {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.main4 .ds4 .img-faq {
+  display: block;
+  margin: auto;
+  height: 25%;
+  width: 25%;
+  padding-bottom: 1.5rem;
+}
+.main4 .ds4 .preguntas-1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  text-decoration: underline;
+}
+
+.main5 {
+  background: linear-gradient(to left, #018f8f, #51f7f7);
+}
+.main5 .ayuda-2 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+.main5 .LogosDeRedes {
+  width: 12rem;
+  height: 12rem;
+  padding: 2rem;
+  display: block;
+  margin: auto;
+}
+.main5 .ayuda-2-1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight: lighter;
+  padding-top: 4rem;
+  text-decoration: underline;
+}
+.main5 .datos {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+.main5 .datos #Cuadro {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 2.5rem;
+}
+.main5 .datos .datos1 {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.main5 .datos .datos2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.main5 .datos .boton {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(360deg, #65bce8 0%, #1b6492 100%);
+  background-size: 1px 100px;
+  transition: all 0.5s;
+}
+.main5 .datos .boton:hover {
+  background-position: 0 -50px;
+  transition: all 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

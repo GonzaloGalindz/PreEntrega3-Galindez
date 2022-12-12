@@ -1,0 +1,22 @@
+.main3 {
+  background: $gradient-main3;
+  .display-3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    font-style: oblique;
+    text-decoration: underline;
+  }
+  .display-3-description {
+    font-size: 1.2rem;
+  }
+  .img_nosotros {
+    display: block;
+    margin: auto;
+  }
+  .testimonios {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+}

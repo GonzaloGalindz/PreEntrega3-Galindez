@@ -1,0 +1,22 @@
+{
+  "name": "preentrega2-galindez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloGalindz/PreEntrega2-Galindez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GonzaloGalindz/PreEntrega2-Galindez/issues"
+  },
+  "homepage": "https://github.com/GonzaloGalindz/PreEntrega2-Galindez#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

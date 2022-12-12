@@ -1,0 +1,30 @@
+.main4 {
+  background: $gradient-main4;
+  .ds4 {
+    padding-bottom: 4rem;
+    .display-4 {
+      text-align: center;
+      font-size: 2.2rem;
+      padding-bottom: 3rem;
+      font-style: oblique;
+      text-decoration: underline;
+    }
+    .display-4-description {
+      font-size: 1.1rem;
+      padding-top: 1rem;
+    }
+    .img-faq {
+      display: block;
+      margin: auto;
+      height: 25%;
+      width: 25%;
+      padding-bottom: 1.5rem;
+    }
+    .preguntas-1 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding-top: 1.5rem;
+      text-decoration: underline;
+    }
+  }
+}

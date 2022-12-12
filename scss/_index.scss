@@ -1,0 +1,39 @@
+main {
+  background: $gradient-main;
+  .display-1 {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+    .display-1-description {
+      font-size: 1.4rem;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  }
+  .comprar--button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.93rem 3.3rem 0.93rem 1.2rem;
+    font-weight: 700;
+    border: 0.2rem solid white;
+    border-radius: 50rem;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    background: linear-gradient(360deg, #65bce8 0%, #1b6492 100%);
+    background-size: 1px 100px;
+    transition: all 0.5s;
+    &:hover {
+      background-position: 0 -50px;
+      transition: all 0.5s;
+    }
+  }
+  .subtit {
+    padding-top: 2.5rem;
+  }
+}

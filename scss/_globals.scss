@@ -1,0 +1,55 @@
+img {
+  max-width: 100%;
+}
+header {
+  .menu {
+    background: linear-gradient(to right, #018f8f, #51f7f7);
+  }
+  .Logo {
+    height: 4rem;
+  }
+  .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.65;
+    }
+  }
+}
+.H1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+footer {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: #079999;
+}
+@media (max-width: 540px) {
+  .Logo {
+    height: 3rem;
+  }
+  .display-1 {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+  }
+  #subtitulos {
+    display: block;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 5rem;
+  }
+}
